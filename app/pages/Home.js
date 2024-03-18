@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import { Arrow } from '@/ui/icons'
+import { Arrows } from '@/ui/icons'
 import Link from 'next/link'
 
 const Home = () => {
@@ -23,7 +23,7 @@ const Home = () => {
             <Link href='https://www.youtube.com/watch?v=26JvaAnXPsI' className=''><h2 className='font-extrabold text-7xl border-double border-b-4 hover:text-yellow-600 hover:border-white border-yellow-600 p-0'>Out Now</h2></Link>
           </div>
         </div>
-        <div className='absolute bottom-10 left-1/2'><Link href='/#videos'><Arrow/></Link></div>
+        <div className='absolute bottom-10 left-1/2'><Link href='/#videos'><Arrows/></Link></div>
       </div>
     </section>
   )
