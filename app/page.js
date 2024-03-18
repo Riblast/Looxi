@@ -1,16 +1,12 @@
-import Image from 'next/image'
-
-export default function Home () {
+import Home from './pages/Home'
+import Music from './pages/Music'
+import Videos from './pages/Videos'
+export default function Page () {
   return (
-    <main className="">
-      <div className="h-screen w-screen absolute -z-10 object-cover overflow-hidden pointer-events-none opacity-70">
-          <Image
-              alt=""
-              src="/assets/portada.png"
-              quality={100}
-              fill={true}
-          />
-      </div>
+    <main className="h-screen">
+      <Home/>
+      <Videos/>
+      <Music/>
     </main>
   )
 }
